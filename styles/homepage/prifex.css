@@ -57,7 +57,7 @@ padding: 100px 0px;
 }
 
 .header__nav__link {
-
+width: 65px;
 /* base/bold */
 font-family: 'Lato';
 font-style: normal;
@@ -137,10 +137,11 @@ line-height: 52px;
 
 
 color: #fff;
+opacity: 0.6
 }
 
 .header__nav__right :hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .nav__right__div {
@@ -256,11 +257,10 @@ color: #1E212C;
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
+  opacity: 0.8;
 }
 
-.study__buttons :hover {
-  opacity: 0.7;
-}
+
 
 .study__button,
 .more_button {
@@ -299,7 +299,7 @@ letter-spacing: 0.5px;
 
 /* white */
 color: #FFFFFF;
-
+opacity: 0.6;
 }
 
 .study__left {
@@ -308,6 +308,15 @@ color: #FFFFFF;
   color: red;
 }
 
+
+.study__leftlink {
+  color: red;
+}
+
+.study__buttondiv :hover
+{ 
+  opacity: 0.9;
+}
 
 
 .student_nums {
@@ -511,10 +520,18 @@ padding: 60px 0px;
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
--ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
 gap: 36px;
+}
 
+.cards__divitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 36px;
 }
 
 .card {
@@ -886,6 +903,10 @@ color: #1E212C;
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
+}
+.events__cardbutton {
+  font-family: 'Lato';
+
 }
 
 .item__rightnum {

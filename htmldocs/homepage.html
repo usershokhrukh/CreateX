@@ -6,8 +6,8 @@
   <title>Home</title>
   <link rel="stylesheet" href="../styles/font.css">
   <link rel="stylesheet" href="../styles/normalize.css">
-  <link rel="stylesheet" href="../styles/homepage/prifex.css">
-  <link rel="stylesheet" href="../styles/homepage/style.css">
+  <!-- <link rel="stylesheet" href="../styles/homepage/prifex.css"> -->
+  <!-- <link rel="stylesheet" href="../styles/homepage/style.css"> -->
   <link rel="stylesheet" href="../styles/homepage/minify.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <a class="header__nav__link" href="#">About us</a>
               </li>
               <li class="header__nav__item">
-                <a class="header__nav__link" href="#">Courses</a>
+                <a class="header__nav__link" href="../htmldocs/courses.html">Courses</a>
               </li>
               <li class="header__nav__item">
                 <a class="header__nav__link" href="#">Events</a>
@@ -34,7 +34,7 @@
               </li>
             </ul>
           </div>
-          <div class="header__nav__right">
+          <div class="header__nav__right ">
             <button class="button__get">
               Get consultation
             </button>
@@ -58,7 +58,7 @@
               Enjoy studying
               with Createx Online Courses
             </h2>
-            <div class="study__buttons">
+            <div class="study__buttons study__buttondiv">
               <button class="study__button study__left">About us</button>
               <button class="study__button study__right">Explore courses</button>
             </div>
@@ -140,7 +140,7 @@
                 </p>
               </div>
             </div>
-            <div>
+            <div class="study__buttondiv">
               <button class="more_button">
                 More about us
               </button>
@@ -156,9 +156,12 @@
             <h2 class="courses__title">
               Featured Courses
             </h2>
-            <button class="study__button study__left">
-              View all courses
-            </button>
+            <div class="study__buttondiv">
+              <button class="study__button study__left">
+                <a class="study__leftlink" href="../htmldocs/courses.html">View all courses</a>
+              </button>
+            </div>
+            
           </div>
           <div class="cards__div">
             <div class="cards__divitem">
@@ -439,9 +442,12 @@
             <p class="want__text">
               Do you want more?
             </p>
-            <button class="study__button">
-              Explore all events
-            </button>
+            <div class="study__buttondiv">
+              <button class="study__button">
+                Explore all events
+              </button>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -618,9 +624,12 @@
             <h2 class="blog__posttitle">
               Latest posts
             </h2>
-            <button class="study__button">
+            <div class="study__buttondiv">
+              <button class="study__button">
               Go to blog
             </button>
+            </div>
+            
           </div>
           <div class="blog__cards">
             <div class="blog__card">
@@ -751,7 +760,7 @@
           </h2>
           <div class="subscribe__div">
             <input type="text" placeholder="Your working email" class="subscribe__input">
-            <div class="subs__button">
+            <div class="subs__button study__buttondiv">
               <button class="study__button">
                 Subscribe
               </button>
@@ -792,7 +801,7 @@
                 </a>
               </li>
               <li class="foot__items">
-                <a href="" class="foot__links">
+                <a href="../htmldocs/courses.html" class="foot__links">
                   Courses
                 </a>
               </li>
@@ -882,7 +891,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path fill="red" d="M178 32c-20.65 0-38.73 8.88-50 23.89C116.73 40.88 98.65 32 78 32a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 220.66 240 164 240 94a62.07 62.07 0 0 0-62-62Zm-50 174.8C109.74 196.16 32 147.69 32 94a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8Z"/></svg>
             by Createx Studio 
           </p>
-          <a class="foot__links" href="#">
+          <a class="foot__links" href="../htmldocs/homepage.html">
             GO TO TOP
           </a>
         </div>
