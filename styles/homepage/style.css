@@ -395,9 +395,14 @@ color: #1E212C;
 .cards__div {
 padding: 60px 0px;
 display: flex;
-flex-wrap: wrap;
+flex-direction: column;
 gap: 36px;
 
+}
+
+.cards__divitem {
+  display: flex;
+  gap: 36px;
 }
 
 .card {
@@ -690,6 +695,10 @@ color: #1E212C;
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.events__cardbutton {
+  font-family: 'Lato';
+
 }
 
 .item__rightnum {
