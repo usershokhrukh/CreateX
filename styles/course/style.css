@@ -1,0 +1,427 @@
+.header__nav__linkcourses {
+  color: red;
+}
+
+.header__div {
+  padding: 120px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__divtoptext {
+
+  width: 69px;
+  height: 24px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* primary */
+  color: #FF3F3A;
+
+
+}
+
+.header__divtitle {
+
+  width: 1020px;
+  height: 120px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* or 60px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* gray/900 */
+  color: #1E212C;
+
+
+}
+
+.practicing__text {
+
+  width: 600px;
+  height: 156px;
+
+  /* base/regular
+
+  main body text
+  */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/800 */
+  color: #424551;
+
+
+}
+
+.section1__div {
+  display: flex;
+  gap: 135px;
+  padding: 120px 0px;
+}
+
+.about__course {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.check__text{
+  /* Fringilla in nec risus congue venenatis pretium posuere nec. */
+width: 568px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* gray/800 */
+color: #424551;
+
+}
+
+.check__items {
+  margin-top: -20px;
+}
+
+.top__text__why {
+  padding: 20px 0px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 470px;
+  width: 495px;
+
+  /* white */
+  background: #FFFFFF;
+  /* gray/300 */
+  border: 1px solid #E5E8ED;
+  /* shadow/small */
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px;
+  padding: 40px 32px;
+
+}
+
+
+
+.dates__items {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dates__titles {
+  /* Price */
+
+  width: 44px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* gray/900 */
+  color: #1E212C;
+
+
+}
+
+.dates__date {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  /* primary */
+  color: #FF3F3A;
+
+
+}
+
+.dates__subtext {
+  /* Nulla sem adipiscing adipiscing felis fringilla. Adipiscing mauris quam ac elit tristique dis. */
+
+  width: 429px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/700 */
+  color: #787A80;
+
+
+}
+
+.section1__div2 {
+  margin-top: -100px;
+}
+
+
+.cody {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 20px 0px;
+
+}
+
+.top__textcody {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* gray/900 */
+  color: #1E212C;
+
+
+}
+
+.title__cody {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+
+  /* gray/900 */
+  color: #1E212C;
+
+}
+
+.sub__textcody {
+
+  width: 371px;
+
+  /* lead/regular */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* gray/700 */
+  color: #787A80;
+
+
+}
+
+.cody__iconsdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cody__items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cody__itemstext {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  display: flex;
+  align-items: center;
+
+  /* gray/800 */
+  color: #424551;
+
+
+}
+
+.cody__maintext {
+
+  width: 600px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/800 */
+  color: #424551;
+
+
+}
+
+.cody__subicons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cody__subicons :hover {
+  color: red;
+}
+
+
+
+.section1__div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.steps__toptext {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* gray/900 */
+  color: #1E212C;
+
+}
+
+.steps__title {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+  text-align: center;
+
+  /* gray/900 */
+  color: #1E212C;
+
+}
+
+.steps__div {
+  display: flex;
+  gap: 30px;
+}
+
+.steps__icon {
+  color: #D7DADD;
+  display: flex;
+  align-items: center;
+  background-color: inherit;
+}
+
+.steps__iconnum {
+  font-size: 46px;
+  font-family: 'Lato';
+  height: 84px;
+  width: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.steps__icondiv {
+  width: 285px;
+}
+
+.steps__icondiv :hover {
+  color: rgb(207, 2, 2);
+}
+
+.steps__iconnumdiv {
+  padding: 10px;
+}
+
+.steps__iconnumdiv :hover {
+  background-color: rgba(255, 0, 0, 0.233);
+}
+
+.steps__itemtitle {
+
+  /* lead/bold */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  display: flex;
+  align-items: center;
+
+  /* gray/900 */
+  color: #1E212C;
+  margin-bottom: 8px;
+
+}
+ 
+.steps__itemstext {
+
+  /* base/regular
+
+  main body text
+  */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/700 */
+  color: #787A80;
+  width: 285px;
+}
+
+
+
