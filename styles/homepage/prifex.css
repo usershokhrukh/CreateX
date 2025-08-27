@@ -315,7 +315,11 @@ opacity: 0.6;
 
 .study__buttondiv :hover
 { 
-  opacity: 0.9;
+  opacity: 0.7;
+}
+
+.study__buttondiv :active {
+  opacity: 1;
 }
 
 

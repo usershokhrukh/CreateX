@@ -1,0 +1,194 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.header {
+  background-color: white;
+}
+
+.header__nav__linkevent {
+  color: red;
+}
+
+.why__createx {
+  text-align: center;
+}
+
+.toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding: 60px 0px 0px;
+}
+
+.toolbar__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.toolbar__item3 {
+  /* small/regular */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* gray/700 */
+  color: #787A80;
+
+}
+
+.toolbar__text {
+    /* Event category */
+
+ 
+  height: 26px;
+
+  /* base/bold */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* gray/800 */
+  color: #424551;
+
+}
+
+.toolbar__div {
+    /* input/default */
+
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+  width: 160px;
+  height: 44px;
+
+  /* white */
+  background: #FFFFFF;
+  /* gray/400 */
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 11px 16px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+
+}
+
+.toolbar__divtext {
+    
+  /* small/regular */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* gray/800 */
+  color: #424551;
+
+
+}
+
+
+
+
+.toolbar__input {
+  
+  -webkit-box-sizing: border-box;
+  
+          box-sizing: border-box;
+  
+  width: 282px;
+  height: 44px;
+  /* white */
+  background: #FFFFFF;
+  /* gray/400 */
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding: 11px 16px;
+
+}
+
+
+.toolbar__inputdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+}
+
+.toolbar__icon {
+  margin-left: -30px;
+  padding: 0px 30px 0px 0px;
+  opacity: 0.5;
+}
+
+.events__cardsitem {
+  background-color: #fff;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px 40px;
+  gap: 40px;
+  border: 1px solid rgba(110, 110, 110, 0.1);
+  -webkit-box-shadow: 0px 80px 80px -20px rgba(39, 16, 15, 0.1), 0px 30px 24px -10px rgba(222, 175, 174, 0.1), 0px 12px 10px -6px rgba(249, 248, 248, 0.04), 0px 4px 4px -4px rgba(221, 225, 240, 0.01);
+          box-shadow: 0px 80px 80px -20px rgba(39, 16, 15, 0.1), 0px 30px 24px -10px rgba(222, 175, 174, 0.1), 0px 12px 10px -6px rgba(249, 248, 248, 0.04), 0px 4px 4px -4px rgba(221, 225, 240, 0.01);
+
+}
+
+.item__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 140px;
+}
+
+
+.event__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
