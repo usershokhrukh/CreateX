@@ -1,3 +1,4 @@
+
 .header {
   background-color: white;
 }
@@ -147,4 +148,9 @@
   align-items: center;
   gap: 5px;
   justify-content: center;
+}
+
+.foot__item2 {
+    background-color: #424551;
+    height: 240px;
 }

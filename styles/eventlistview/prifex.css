@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+
 .header {
   background-color: white;
 }
@@ -191,4 +192,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.foot__item2 {
+    background-color: #424551;
+    height: 240px;
 }
