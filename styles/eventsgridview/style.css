@@ -25,6 +25,12 @@
 
 }
 
+.evengrid__linkcard{
+  color: rgb(247, 162, 162);
+ 
+}
+
+
 .grid__titlediv {
   display: flex;
   flex-direction: column;

@@ -41,6 +41,12 @@
 
 }
 
+.evengrid__linkcard{
+  color: rgb(247, 162, 162);
+ 
+}
+
+
 .grid__titlediv {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,0 +1,108 @@
+.header__divtoptext {
+  width: auto;
+  text-transform:uppercase ;
+  letter-spacing: 1px;
+}
+
+.section1__eventdiv1 {
+  display: flex;
+  gap: 134px;
+  padding: 120px 0px;
+}
+
+.events__date {
+  text-decoration: underline;
+}
+
+.header__nav__linkcourses {
+  color: #424551;
+}
+
+.header__nav__linkevent {
+  color: red;
+}
+
+.section1event__div4 {
+  display: flex;
+  gap: 114px;
+  padding: 60px 105px;
+  background-color:rgba(246,77,39,.2);
+  border-radius: 5px;
+}
+
+.div4__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.div4__righttitle {
+
+  width: 600px;
+  height: 84px;
+
+  /* h2 */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 130%;
+  /* or 42px */
+  display: flex;
+  align-items: center;
+
+  /* gray/900 */
+  color: #1E212C;
+
+
+}
+
+.event__subsdiv {
+  margin-bottom: 24px;
+}
+
+.eventchecker {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.checktext {
+    /* I agree to receive communications from Createx Online School */
+
+  width: 434px;
+  height: 26px;
+
+  /* base/regular
+
+  main body text
+  */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* gray/800 */
+  color: #424551;
+
+
+}
+
+.event__register {
+  padding: 120px 0px;
+}
+
+.section3__event {
+  background-color: #f1f4f7;
+  
+}
+
+.section2__eventsubbut {
+  margin-left: -100px;
+}
+
+.foot__item2 {
+  background-color: #424551;
+  height: auto;
+}
